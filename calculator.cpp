@@ -6,7 +6,7 @@ int main()
 
 {
 
-    int firstNumber, secondNumber, sumOfTwoNumbers, diffOfTwoNumbers;
+    int firstNumber, secondNumber, sumOfTwoNumbers, diffOfTwoNumbers, prodOfTwoNumbers;
  
 
     cout << "Enter first number: ";
@@ -19,11 +19,13 @@ int main()
 
     sumOfTwoNumbers = firstNumber + secondNumber;
     diffOfTwoNumbers = firstNumber - secondNumber;
+    prodOfTwoNumbers = firstNumber * secondNumber;
 
     // Prints sum 
 
     cout << endl << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
     cout << endl << firstNumber << " - " <<  secondNumber << " = " << diffOfTwoNumbers;     
+    cout << endl << firstNumber << " x " <<  secondNumber << " = " << prodOfTwoNumbers;     
 
     return 0;
 
