@@ -5,7 +5,7 @@ using namespace std;
 int main()
 
 {
-
+    cout << "Calculator by Martin" << endl;
     int firstNumber, secondNumber, sumOfTwoNumbers, diffOfTwoNumbers, prodOfTwoNumbers, quotOfTwoNumbers, modOfTwoNumbers;
  
 
